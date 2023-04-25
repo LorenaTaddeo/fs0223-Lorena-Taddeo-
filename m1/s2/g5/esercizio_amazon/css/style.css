@@ -1,0 +1,210 @@
+html{
+    font-size: 62,5%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color:#e9edee;
+}
+
+header{
+    background-color: #222f3f;
+}
+
+#logo{
+    width:150px;
+    padding: 1em;
+}
+
+nav{
+    display:flex;
+    background-color:#364758; 
+    padding:10px;
+    font-size:18px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:10px;
+}
+
+.bordo{
+    margin-left:2em;
+    color:white;
+    padding:15px;
+}
+
+.bordo:hover{
+    border:1px solid white;
+    padding:9px;
+}
+
+main{
+    margin:40px;
+}
+
+#shop{
+    background-color: #f56600;
+    padding: 10px;
+    color:white;
+    text-align:center;
+    margin-bottom:3em;
+}
+
+#gift{
+    background-image: url(../assets/bg-image.png);
+    background-size: contain;
+    background-position:center;
+    padding:50px;
+    height: 100px;
+    text-align: center;
+    color:white;
+    margin-top:3em;
+    margin-bottom:3em;
+}
+
+#abbasso{
+    padding-top: 2em;
+}
+
+h2{
+    font-size:2rem;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+
+#riquadro{
+    background-color: white;
+    margin-bottom:3em;
+}
+#shopnow{
+    display:flex;
+    justify-content:left;
+    font-size:1.5rem;
+    padding:20px 0 0 20px;
+}
+
+#shopnow a{
+    text-decoration: none;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:#085d69;
+}
+
+.spazio{
+    margin-left:20px;
+}
+#quattro{
+    display:flex;
+    justify-content: space-between;
+    padding:4em;
+}
+
+.fourimg{
+    border-radius:5%;
+    box-shadow: 10px 10px 8px rgba(224,229,232,255);
+    width:20%;
+    height: 400px;
+}
+
+#img1{
+    background-image: url(../assets/img_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img2{
+    background-image: url(../assets/img_2.jpg);
+    background-size: cover;
+    background-position:center;
+
+}
+
+#img3{
+    background-image: url(../assets/img_3.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
+
+#img4{
+    background-image: url(../assets/img_4.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+#maschera{
+    margin-bottom:3em;
+}
+
+
+#img9{
+    background-image: url(../assets/img_9.png);
+    background-size:cover;
+    height: 200px;
+    background-position:center;
+    padding: 100px;
+}
+
+#play{
+    display:flex;
+    justify-content:center;
+    font-size:1.5rem;
+    margin-top:10px;
+}
+
+#play a{
+    text-decoration: none;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:#085d69;  
+}
+
+#img10{
+    background-image: url(../assets/img_10.png);
+    background-size:cover;
+    height: 200px;
+    background-position:center;
+    padding:100px;
+}
+
+#marshall{
+    display:flex;
+    justify-content:center;
+    font-size:1.5rem;
+    margin-top:10px;
+}
+
+#marshall a{
+    text-decoration: none;
+    font-size:1.3rem;
+    font-weight:bold;
+    color:#085d69;  
+}
+
+footer{
+    background-color:#222f3f;
+    text-align:center;
+
+}
+
+#back{
+    background-color: #364758;
+    padding:10px;
+}
+
+#back a{
+    color:white;
+}
+
+#back a:hover{
+    border:1px solid white;
+    padding:10px;
+}
+
+#logetto img{
+    height:3em;
+    padding: 30px;
+}

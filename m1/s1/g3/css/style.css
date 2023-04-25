@@ -1,0 +1,47 @@
+
+.testa{
+    font-family: 'Alkatra', cursive;
+    text-align:center;
+    margin: 0 auto;
+    }
+#intestazione{
+    background-color: #f5e27533;
+    border-top: 1px solid #ef9746;
+    padding: 10px 0;
+}
+section{
+    font-family: 'Roboto', sans-serif;
+}
+.maincontent{
+    width: 500px;
+    margin:0 auto;
+}
+.ft{
+    color:rgb(222, 182, 108);
+    border-left: 2px outset rgba(36, 43, 234, 0.806);
+    padding-left: 15px;
+    border-width: 1px;
+    margin: 4px;
+}
+h2{
+    border-bottom: 1px solid blue;
+    padding-bottom: 15px;
+}
+.titoli{
+    text-align:center;
+    text-indent: 30px;
+}
+img, video{
+    max-width: 100%;
+}
+.link{
+    color:rgb(121, 13, 126);
+}
+.image{
+    color: grey;
+    text-align: center;
+}
+.piedi{
+    margin: 0 auto;
+    width: 600px;
+}

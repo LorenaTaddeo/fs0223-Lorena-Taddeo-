@@ -1,0 +1,91 @@
+*{font-family: 'Poppins', sans-serif;}
+*{padding: 10px;}
+*{box-sizing: border-box;}
+body{
+    background-image: url('../img/sfondo.png');
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+    line-height:1,5;
+    background-attachment: fixed;
+}
+    /* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+img{
+    margin:0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+#quadratoblu{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(5,180,200);
+    background: linear-gradient(200deg, rgba(1,120,200,1) 0%, rgba(3,128,167,1) 56%, rgba(23,125,168,1) 73%, rgba(21,124,157,1) 81%);
+    margin: 20px 20px;
+    padding: 25px 15px;
+    text-align: center;
+    box-shadow: 0 3px 4px grey;
+}
+#quadratoblu div nav ul li{
+    color:white;
+}
+#lista ul{
+    margin: 0;
+}
+#lista ul li{
+    color:white;
+    list-style: none;
+}
+a::before {
+    content:"\22C6\0020
+}
+/* MAIN */
+h1{
+    font-weight:bold;
+    font-size: 1.8rem;
+}
+#grigio{
+    color: gray;
+}
+#maincontent{
+    line-height: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 25px 15px;
+    margin: 20px;
+}
+.bianco, ul li a {
+    color:white;
+}
+.fucsia{
+    color: fuchsia;
+    font-weight: bold;
+}
+.bottone{
+        background-color: rgb(216, 214, 214);
+        border-radius: 5px;
+        border: 1px inset black;
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+#tabella table td, table th{
+    border:1px solid grey;
+    padding:12px;
+    text-align: center;
+}
+#testatabella{
+    background-color: rgb(109, 109, 239);
+}
+ iframe{
+    width: 100%;
+    height: auto;
+ }
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */

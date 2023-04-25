@@ -1,0 +1,109 @@
+html{font-size: 62,5%;
+}
+body{
+    color:#393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
+*{box-sizing: border-box;}
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.5em;
+    line-height: 1.5;
+    color:#25a2c3;
+}
+h1{
+    margin-top:1.5em;
+}
+img{
+    max-width: 100%;
+}
+.grandi{
+    font-size: 2rem;
+}
+div{
+    padding: 0.8em;
+}
+header{
+    background-color: black;
+    text-align:center;
+    padding: 2em 1.5em;
+}
+.banner{
+    background-image: url('../images/banner.jpg');
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom:2em;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    background-color:#f04c2f;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    padding: 10px 20px;
+    margin:1.5em;
+    letter-spacing: 0,5;
+}
+.headings{
+    color: #25a2c3;
+    font-weight: bold;
+    line-height: 1.5;
+}
+#palla{
+    border-radius: 100%;
+}
+#arancio{
+    background-color: #e22d0e;
+    color:white;
+    line-height: 2;
+}
+#cite{
+    font-style: italic;
+    padding:1.5em;
+}
+#chi{
+    font-size: small;
+}
+#articoli{
+    padding:2em;
+}
+article{
+    display:block;
+    padding:0 0 2em 0;
+    border: 1px solid #dee1e3;
+    box-sizing: none;
+}
+footer{
+    background-color:#25a2c3;
+    text-align: center;
+    padding: 0.5em;
+}
+footer address p a{
+    color:#c8e7f0;
+}
+address p{
+    color:#c8e7f0;
+}
+address, h2{
+    color:white;
+}
+.icona, i{
+    color:white;
+}
+#copy{
+    border-top:0.03em solid #c8e7f0;
+    color:#c8e7f0;
+}
+#copy a{
+    color:#c8e7f0;
+}
+span{
+    color:#c8e7f0;
+}
+
+
+
