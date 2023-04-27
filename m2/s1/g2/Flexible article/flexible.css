@@ -51,7 +51,7 @@
     padding: 20px 0;
     align-items: center;
     border-radius: 100px;
-    width: 330px;
+    width: 100%;
 }
 
 #img{
@@ -122,4 +122,14 @@ h2{
     color:brown;
     font-size: 25px;
     border-radius: 80px 80px;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 30px;
+
 }
