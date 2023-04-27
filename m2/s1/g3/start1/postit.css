@@ -42,27 +42,29 @@ p{
 .yellow{
     background-color: rgb(252, 252, 183);
     transform: rotate(356deg);
-    animation: animateMe 2s linear 2s backwards;
+    animation: animateMe 1s linear 2s backwards;
 }
 
 .green{
     background-color: rgba(195, 255, 195, 0.845);
     transform: rotate(5deg);
-    animation: animateMe 2s linear 2s backwards;
+    animation: animateMe 1s linear 1s backwards;
 }
 
 .violet{
     background-color: rgba(208, 173, 241, 0.852);
     transform: rotate(354deg);
-    animation: animateMe 2s linear 2s backwards;
+    animation: animateMe 1s linear 3s backwards;
 }
 
 @keyframes animateMe {
-    0%{ transform: scale(0);
+    0%{ transform: scale(3, 3);
+        opacity:0;
+        z-index: 1;
     }
-    50%{ transform: scale(0,5);
-    }
-    100%{ transform: scale(1);
+    100%{ transform: scale(1, 1);
+        opacity: 1;
+        z-index: 1;
     }
 }
 
