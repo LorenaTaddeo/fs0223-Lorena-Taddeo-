@@ -4,12 +4,12 @@ body{
 }
 
 h2{
-    font-size:2.5em;
+    font-size:3em;
     margin-bottom: 10px;
 }
 
 p{
-    font-size:1.5em;
+    font-size:2.5em;
 }
 
 .disposizione{
@@ -41,20 +41,20 @@ p{
 
 .yellow{
     background-color: rgb(252, 252, 183);
-    transform: rotate(356deg);
-    animation: animateMe 1s linear 2s backwards;
+    rotate: 356deg;
+    animation: animateMe 5s ease-in 2s backwards;
 }
 
 .green{
-    background-color: rgba(195, 255, 195, 0.845);
-    transform: rotate(5deg);
-    animation: animateMe 1s linear 1s backwards;
+    background-color: rgb(195, 255, 195);
+    rotate: 5deg;
+    animation: animateMe 5s ease-in 7s backwards;
 }
 
 .violet{
-    background-color: rgba(208, 173, 241, 0.852);
-    transform: rotate(354deg);
-    animation: animateMe 1s linear 3s backwards;
+    background-color: rgb(208, 173, 241);
+    rotate: 354deg;
+    animation: animateMe 5s ease-in 12s backwards;
 }
 
 @keyframes animateMe {
@@ -62,8 +62,10 @@ p{
         opacity:0;
         z-index: 1;
     }
-    100%{ transform: scale(1, 1);
+    1%{
         opacity: 1;
+    }
+    100%{ transform: scale(1, 1);
         z-index: 1;
     }
 }
