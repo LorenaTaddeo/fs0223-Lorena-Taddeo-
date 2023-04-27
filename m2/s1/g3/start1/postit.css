@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(116, 115, 115);
+    font-family: 'Indie Flower', cursive;
+}
+
+h2{
+    font-size:2.5em;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size:1.5em;
+}
+
+.disposizione{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+
+.post-it{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 29%), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    transition: all 1s linear;
+}
+
+.post-it:hover{
+    transform: scale(1.2) rotate(0deg);
+    z-index: 1;
+}
+
+.yellow{
+    background-color: rgb(252, 252, 183);
+    transform: rotate(356deg);
+    animation: animateMe 2s linear 2s backwards;
+}
+
+.green{
+    background-color: rgba(195, 255, 195, 0.845);
+    transform: rotate(5deg);
+    animation: animateMe 2s linear 2s backwards;
+}
+
+.violet{
+    background-color: rgba(208, 173, 241, 0.852);
+    transform: rotate(354deg);
+    animation: animateMe 2s linear 2s backwards;
+}
+
+@keyframes animateMe {
+    0%{ transform: scale(0);
+    }
+    50%{ transform: scale(0,5);
+    }
+    100%{ transform: scale(1);
+    }
+}
+
