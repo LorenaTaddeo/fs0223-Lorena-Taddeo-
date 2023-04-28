@@ -1,0 +1,268 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/*NAVIGATION BAR*/
+.navigationBar{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(250, 189, 6);
+    padding: 0 100px;
+    align-items: center;
+    position:sticky;
+    top:0;
+    z-index:3;
+    border-bottom: 2px solid black;
+}
+.navigationBar2{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(252, 252, 251);
+    padding: 0 100px;
+    align-items: center;
+    position:sticky;
+    top:0;
+    z-index:3;
+    border-bottom: 2px solid black;
+}
+.navigationBar2 button{
+    background-color: white;
+    color:black;
+}
+.navigationBar2 .started{
+    background-color: #1a8917;
+    color:white;
+}
+
+.mediumlogo{
+    width:200px;
+    height: 100px;
+}
+
+
+.list ul{
+    display:flex;
+    list-style-type: none;
+    margin-right:5px;
+}
+
+.button{
+    background-color: rgb(250, 189, 6);
+    border:none;
+    padding:20px;
+    font-size: 1em;
+}
+
+.started{
+    background-color: black;
+    border-radius: 50px;
+    color:white;
+}
+
+/*HEADER*/
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(250, 189, 6);
+}
+
+.title{
+    display:flex;
+    flex-direction: column;
+    padding:40px 100px;
+    justify-content: space-evenly;
+}
+
+.firstHeading{
+    font-size: 5rem;
+    font-family: 'Spectral', serif;
+}
+
+.firstP{
+    font-size:1.6rem;
+}
+
+.startButton{
+    color:white;
+    background-color: black;
+    border-radius:40px;
+    width: 300px;
+    padding:10px 40px;
+    font-size: 2rem;
+}
+/*MAIN*/
+
+main{
+    margin: 50px 50px;
+}
+.mainTitle{
+    display:flex;
+    align-items: center;
+}
+.trendingLogo{
+    width: 40px;
+    height: 40px;
+}
+.secondTitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.all{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:40px 0;
+    width: 100%;
+}
+.article{
+    display:flex;
+    justify-content: space-between;
+    width:300px;
+    height: 150px;
+    margin-left:10px;
+}
+.number{
+    color:lightgray;
+    font-size: 32px;
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    width:800px;
+}
+.logoName{
+    display:flex;
+    align-items: center;
+    
+}
+.widthimg{
+    border-radius: 100%;
+    width:20px;
+    height: 20px;
+    margin-right:10px;
+}
+.description{
+    font-weight: bold;
+    font-size: 20px;
+}
+.date{
+    font-size:15px;
+    color: grey;
+}
+.containerAll{
+    display:flex;
+    justify-content:space-between;
+    position: relative;
+    width:100%;
+}
+
+/*POST*/
+.allPosts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:800px;
+    height: 100px;
+}
+.post{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:40px;
+    margin-right:80px;
+}
+.textPost{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:100%;
+}
+.logoPost{
+    display:flex;
+    align-items: center;
+    margin-bottom:20px;
+}
+.littleimg{
+    border-radius: 100%;
+    width:20px;
+    height: 20px;
+    margin-right:10px;
+}
+.titlePost{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.paragraph{
+    color:rgb(106, 106, 106);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.datePost{
+    display:flex; 
+    justify-content: space-between;
+    width:100%;
+}
+.text-grey{
+    color:rgb(106, 106, 106);
+}
+.buttonPost{
+    background-color: rgba(218, 218, 218, 0.742);
+    border:none;
+    border-radius: 30px;
+    padding:2px 10px;
+}
+.imgPost{
+    width:100%;
+}
+
+/*DISCOVER*/
+.containerDiscover{
+    display:flex;
+    flex-wrap: wrap;
+    width: 450px;
+    position: sticky;
+    top: 110px;
+   
+}
+.firstButtons{
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom:10px;
+  
+}
+.firstButtons button{
+    border-radius:20px;
+    background-color: rgb(201, 201, 201);
+    padding:10px 20px;
+    margin:10px;
+    border:none;
+
+}
+.greentext{
+    color:rgb(16, 197, 16);
+    margin-bottom: 30px;
+  
+}
+
+.lastsButtons{
+    border-top: 1px solid grey;
+ 
+}
+.lastsButtons button{
+    border:none;
+    padding:1px 2px;
+    margin:20px;
+    background-color: white;
+    color: grey;
+ 
+}
+
+
