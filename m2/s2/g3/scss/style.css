@@ -1,0 +1,28 @@
+body {
+  width: 100%;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav img {
+  width: 200px;
+  height: 200px;
+}
+header nav a {
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 30px;
+}
+header .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #640FC5;
+}
+header .hero img {
+  width: 300px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+header{
+    nav{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            width:200px;
+            height: 200px;
+        }
+        a{
+            text-decoration: none;
+            font-family:cursive;
+            font-size: 30px;
+        }
+    }
+    .hero{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $bg-hero;
+        img{
+            width: 300px;
+        }
+    }
+    .bottone1{
+        background-color: $bottone1;
+    }
+}
