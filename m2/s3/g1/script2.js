@@ -25,16 +25,17 @@ class Pets{
 const createList = function () {
 let listPets = document.querySelector('#users-list')
 listPets.innerHTML = ''
-pets.forEach((pet, i) => {
+pets.forEach((pets, i) => {
 let newListItem = document.createElement('li')
 newListItem.innerText =
-pet.petName +
+pets.petName +
 ' ' +
-pet.ownerName +
+pets.ownerName +
 ' ' +
-pet.species +
+pets.species +
 ' ' +
-pet.breed
+pets.breed
+Pets.sameOwnerName() 
 listPets.appendChild(newListItem)
 })
 }
@@ -42,7 +43,7 @@ listPets.appendChild(newListItem)
 let formReference = document.querySelector('form')
 formReference.addEventListener('submit', (e) => {
 e.preventDefault()
-let petsFromTheForm = new User(petNameInputField.value, ownerNameInputField.value, speciesInputField.value, breedInputField.value)
+let petsFromTheForm = new Pets(petNameInputField.value, ownerNameInputField.value, speciesInputField.value, breedInputField.value)
 console.log(petsFromTheForm)
 users.push(petsFromTheForm)
 nameInputField.value = '' 
