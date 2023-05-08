@@ -14,14 +14,11 @@ class Pets{
         this.breed = breed;
     }
 
-    static sameOwnerName(firstowner, secondowner){
-        if('firstowner' === 'secondowner'){
-            return true;
-        }else{
-            return false;
+    static sameOwnerName = function(otherPet){
+       return this.ownerName === otherPet.ownerName
         }
     }
-}
+
 
 const createList = function () {
 let listPets = document.querySelector('#users-list')
@@ -51,5 +48,6 @@ petNameInputField.value = ''
 ownerNameInputField.value = ''
 speciesInputField.value = ''
 breedInputField.value = ''
+petNameInputField.focus()
 createList()
 })
