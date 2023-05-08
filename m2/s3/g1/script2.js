@@ -13,6 +13,7 @@ class Pets{
         this.species = species;
         this.breed = breed;
     }
+
     static sameOwnerName(firstowner, secondowner){
         if('firstowner' === 'secondowner'){
             return true;
@@ -45,8 +46,10 @@ formReference.addEventListener('submit', (e) => {
 e.preventDefault()
 let petsFromTheForm = new Pets(petNameInputField.value, ownerNameInputField.value, speciesInputField.value, breedInputField.value)
 console.log(petsFromTheForm)
-users.push(petsFromTheForm)
-nameInputField.value = '' 
-surnameInputField.value = ''
+pets.push(petsFromTheForm)
+petNameInputField.value = '' 
+ownerNameInputField.value = ''
+speciesInputField.value = ''
+breedInputField.value = ''
 createList()
 })
