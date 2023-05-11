@@ -18,7 +18,7 @@ fetch('https://striveschool-api.herokuapp.com/books')
                 <h5 class="card-title">${element.title}</h5>
                 <p class="card-text"><span class="fw-bol">Category:</span>${element.category}</p>
                 <p class="card-text"><span class="fw-bol">Price:</span>${element.price}</p>
-                <button class="btn btn-dark id="discardButton">Discard</button>
+                <button class="btn btn-dark id="discardButton" onclick = "elimina(this)">Discard</button>
                 </div>
             </div>
         </div>`   
@@ -28,8 +28,8 @@ fetch('https://striveschool-api.herokuapp.com/books')
 
 
 let discard = col.querySelectorAll("#discardButton");
-for (let button of discard) {
-        button.addEventListener("click", () => {
-            button.parentElement.parentElement.parentElement.remove();
-        })
-    };
+discard 
+
+let elimina = function (par){
+    par.closest(".col").remove();
+}
