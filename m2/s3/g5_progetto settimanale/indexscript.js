@@ -3,7 +3,7 @@ const PRODUCTS = 'https://striveschool-api.herokuapp.com/api/product/'
 const hideColumn = function (context) {
   console.log('context', context)
   let rightColToDelete = context.closest('.cards')
-  /*rightColToDelete.remove()*/
+  rightColToDelete.remove()
   fetch(PRODUCTS + context.id , {
     method: 'DELETE',
     headers: {
@@ -35,7 +35,7 @@ const getProducts = function (){
         console.log('PRODOTTI IN DB', data)
         data.forEach((product) => {
             let colTemplate = `
-            <div class="col-12 col-md-3 cards">
+            <div class="col-12 col-md-3 me-4 cards p-0 shadow bg-white rounded" style="height: 100px">
               <div class="card">
               <img src="${product.imageUrl}" class="card-img-top w-100">
                 <div class="card-body">
@@ -46,8 +46,8 @@ const getProducts = function (){
                   <a href="./details.html?productId=${product._id}" class="d-block mb-1">Scopri di più</a>
                   <a href="./backoffice.html?productId=${
                     product._id
-                  }" class="btn btn-primary">MODIFICA</a>
-                  <button type="button" class="btn btn-danger" onclick="hideColumn(this)" id="${product._id}">
+                  }" class="btn btn-outline-primary mb-2">MODIFICA</a>
+                  <button type="button" class="btn btn-outline-danger mb-2" onclick="hideColumn(this)" id="${product._id}">
                   ELIMINA</button>
                 </div>
               </div>
