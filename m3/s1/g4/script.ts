@@ -27,7 +27,8 @@ fetch ('./starter/Abbigliamento.json')
     disponibile:string
     saldo:number
 
-    constructor( _id:number, _codprod:number, _collezione:string, _capo:string, _modello:number, _quantita:number, _colore:string, _prezzoivaesclusa:number, _prezzoivainclusa:number, _disponibile:string, _saldo:number){
+    constructor( _id:number, _codprod:number, _collezione:string, _capo:string, _modello:number, _quantita:number, _colore:string,
+        _prezzoivaesclusa:number, _prezzoivainclusa:number, _disponibile:string, _saldo:number){
         this.id = _id;
         this.codprod = _codprod;
         this.collezione = _collezione;
