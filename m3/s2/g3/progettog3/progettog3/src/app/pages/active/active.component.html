@@ -1,0 +1,18 @@
+<div class="card" *ngFor="let posts of ArrayActivePosts">
+  <h5 class="card-header">{{ posts.id }}</h5>
+  <div class="card-body">
+    <h5 class="card-title">{{ posts.title }}</h5>
+    <p class="card-text">
+      {{ posts.body }}
+    </p>
+    <p class="card-text">{{ posts.active }}</p>
+    <a
+      class="btn btn-primary"
+      (click)="
+        posts.active = !posts.active;
+        this.ArrayActivePosts = this.postsSvc.getPosts(true)
+      "
+      >Disattiva</a
+    >
+  </div>
+</div>

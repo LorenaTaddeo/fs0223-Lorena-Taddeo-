@@ -1,0 +1,11 @@
+<div class="card" *ngFor="let post of postArray">
+  <h5 class="card-header">{{ post.id }}</h5>
+  <div class="card-body">
+    <h5 class="card-title">{{ post.title }}</h5>
+    <p class="card-text">
+      {{ post.body }}
+    </p>
+    <p>{{ post.active }}</p>
+    <a class="btn btn-primary">Attiva</a>
+  </div>
+</div>

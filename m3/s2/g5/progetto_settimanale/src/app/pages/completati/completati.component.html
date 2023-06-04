@@ -1,0 +1,8 @@
+<ul *ngFor="let todos of filterArrayTodo" class="listTask">
+  <li>
+    - {{ todos.title }}
+    <button type="checkbox" (click)="delete(todos); getTodos()">x</button>
+  </li>
+</ul>
+<div *ngIf="loading">Recupero Task...</div>
+<div *ngIf="filterArrayTodo.length == 0 && !loading">Ops, non ci sono Task</div>

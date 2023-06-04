@@ -1,0 +1,21 @@
+<ul *ngFor="let todos of filterArrayTodos" class="listTask">
+  <li>
+    - {{ todos.title }}
+    <button type="checkbox" (click)="update(todos); getTodos()">✓</button>
+  </li>
+</ul>
+
+<div *ngIf="loading">Recupero Task...</div>
+<div *ngIf="filterArrayTodos.length == 0 && !loading">
+  Ops, non ci sono Task
+</div>
+<form>
+  <input
+    name="title"
+    type="text"
+    class="form-control"
+    placeholder="Aggiungi ToDo"
+    [(ngModel)]="todo2.title"
+  />
+  <button (click)="addTodos()">+</button>
+</form>
