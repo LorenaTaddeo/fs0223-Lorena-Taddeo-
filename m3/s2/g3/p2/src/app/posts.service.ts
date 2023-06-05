@@ -10,9 +10,6 @@ export class PostsService {
   
   Url: string = 'assets/db.json';
 
-  getPosts(activeInactive:boolean): Post[] {
-    if(activeInactive) 
-    return this.postArray.filter((p:Post) => p.active)}
-    {else  }
 
+    
 }
