@@ -1,0 +1,40 @@
+<form class="mt-5 w-50 m-auto">
+  <h1 class="h3 mb-3 fw-normal">Registrati</h1>
+
+  <input
+    type="email"
+    placeholder="email"
+    name="email"
+    [(ngModel)]="data.email"
+    class="form-control"
+  />
+  <input
+    type="password"
+    placeholder="Password"
+    name="password"
+    [(ngModel)]="data.password"
+    class="form-control"
+  />
+  <input
+    type="text"
+    placeholder="Name"
+    name="name"
+    [(ngModel)]="data.name"
+    class="form-control"
+  />
+  <input
+    type="text"
+    placeholder="Surname"
+    name="surname"
+    [(ngModel)]="data.surname"
+    class="form-control"
+  />
+
+  <button
+    class="btn btn-primary"
+    (click)="register()"
+    [routerLink]="['/dashboard']"
+  >
+    Registrati
+  </button>
+</form>

@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "email": "cicciogamer@email.com",
+      "password": "$2a$10$J7xIB.DrKByzVsKwAvEXTOjOu4bis4G1o1O4IP03YHiAibZGhjfzy",
+      "name": "ciccio",
+      "surname": "gamer",
+      "id": 1
+    },
+    {
+      "email": "johnnydepp@email.com",
+      "password": "$2a$10$NqowuExsVwudXVTm08WPSek3JoE4OfLp01elHgm/ClP7HrIsWeIZa",
+      "name": "johnny",
+      "surname": "depp",
+      "id": 2
+    },
+    {
+      "email": "hola@gmail.com",
+      "password": "$2a$10$BgtYCidvSM2FTvFtuvxGReEydtr7cCw1eeTD5PS8h4iBMspL8LkGe",
+      "name": "hola",
+      "surname": "hola",
+      "id": 3
+    }
+  ]
+}
