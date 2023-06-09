@@ -1,3 +1,5 @@
+Hosting URL: https://progetto-settimanale-angular-2.web.app
+
 # ProgettoSettimanale
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
